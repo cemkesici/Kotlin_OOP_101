@@ -1,6 +1,6 @@
 package com.cem.oop
 
-class Famous (isim:String,soyisim:String, yas:Int,job:String){
+open class Famous (isim:String, soyisim:String, yas:Int, job:String){//kalıtım vereceği için open olarak tanımladık
     //var isim:String?=isim isim değişkeni dışardan obje ile erişilip değiştirilmesini istediğimizde kullanabiliriz
 
     var yas:Int?=yas//değiştirme ve erişme işlemleri yapabiliyoruz

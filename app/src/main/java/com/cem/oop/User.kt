@@ -1,6 +1,6 @@
 package com.cem.oop
 
-class User {
+class User:Canli {//Canli abstract sınıfından kalıtım aldık
     private var isim: String? = null
     private var yas: Int? = null
 
